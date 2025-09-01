@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from ShrutixMusic import app
+from ShrutixMusic import nand
 from ShrutixMusic.misc import SUDOERS
 from ShrutixMusic.utils.database import (
     get_active_chats,
@@ -167,5 +167,6 @@ async def auto_clean():
 
 
 asyncio.create_task(auto_clean())
+
 
 
